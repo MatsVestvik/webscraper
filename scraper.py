@@ -20,7 +20,7 @@ USER_AGENT = (
 # If a field has multiple selectors, the first one with text is used.
 SELECTORS: Dict[str, str] = {
     "description": "#contents section.infomation p, section.infomation p, #contents p",
-    "logo_url": "#contents aside .logo img::attr(src), aside .logo img::attr(src)",
+    "logo_url": "aside .logo img::attr(src)",
 }
 
 
